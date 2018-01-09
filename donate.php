@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
     <head>
         <title>HEALTHCARE</title>
@@ -74,7 +80,7 @@
         <li><a href="index.html">HOME<span class="sr-only">(current)</span></a></li>
         <li><a href="aboutus.html">ABOUT US</a></li>
         <li><a href="services.html">SERVICES</a></li>
-        <li><a href="appointment.php">MAKE AN APPOINTMENT</a></li>
+        <li><a href="appointment.html">MAKE AN APPOINTMENT</a></li>
         <li class="active"><a href="donate.html">DONATE MEDICINE</a></li>
         
       <ul class="nav navbar-nav navbar-left">
@@ -112,7 +118,7 @@
 	 <div class="form-group">
     <label class="control-label col-sm-2" for="name">Name:</label>
     <div class="col-sm-5">
-      <input type="text" class="form-control" name="name" placeholder="Enter name" required>
+      <input type="text" class="form-control" id="name" placeholder="Enter name" required>
     </div>
   </div>
  
