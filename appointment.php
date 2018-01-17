@@ -59,7 +59,7 @@ if(isset($_POST['submitted'])) {
 				}
 			catch(PDOException $e)
 				{
-				//echo $SQL."<br>".$e->getMessage();
+					echo $SQL."<br>".$e->getMessage();
 				}
 			$conn=null;
     }   
